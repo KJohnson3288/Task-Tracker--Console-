@@ -1,0 +1,15 @@
+C:\Users\KJohn\Desktop\Coding concepts\Task Tracker (Console)\Task Tracker\bin\Debug\net6.0\Task Tracker.exe
+C:\Users\KJohn\Desktop\Coding concepts\Task Tracker (Console)\Task Tracker\bin\Debug\net6.0\Task Tracker.deps.json
+C:\Users\KJohn\Desktop\Coding concepts\Task Tracker (Console)\Task Tracker\bin\Debug\net6.0\Task Tracker.runtimeconfig.json
+C:\Users\KJohn\Desktop\Coding concepts\Task Tracker (Console)\Task Tracker\bin\Debug\net6.0\Task Tracker.dll
+C:\Users\KJohn\Desktop\Coding concepts\Task Tracker (Console)\Task Tracker\bin\Debug\net6.0\ref\Task Tracker.dll
+C:\Users\KJohn\Desktop\Coding concepts\Task Tracker (Console)\Task Tracker\bin\Debug\net6.0\Task Tracker.pdb
+C:\Users\KJohn\Desktop\Coding concepts\Task Tracker (Console)\Task Tracker\obj\Debug\net6.0\Task Tracker.csproj.AssemblyReference.cache
+C:\Users\KJohn\Desktop\Coding concepts\Task Tracker (Console)\Task Tracker\obj\Debug\net6.0\Task Tracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KJohn\Desktop\Coding concepts\Task Tracker (Console)\Task Tracker\obj\Debug\net6.0\Task Tracker.AssemblyInfoInputs.cache
+C:\Users\KJohn\Desktop\Coding concepts\Task Tracker (Console)\Task Tracker\obj\Debug\net6.0\Task Tracker.AssemblyInfo.cs
+C:\Users\KJohn\Desktop\Coding concepts\Task Tracker (Console)\Task Tracker\obj\Debug\net6.0\Task Tracker.csproj.CoreCompileInputs.cache
+C:\Users\KJohn\Desktop\Coding concepts\Task Tracker (Console)\Task Tracker\obj\Debug\net6.0\Task Tracker.dll
+C:\Users\KJohn\Desktop\Coding concepts\Task Tracker (Console)\Task Tracker\obj\Debug\net6.0\ref\Task Tracker.dll
+C:\Users\KJohn\Desktop\Coding concepts\Task Tracker (Console)\Task Tracker\obj\Debug\net6.0\Task Tracker.pdb
+C:\Users\KJohn\Desktop\Coding concepts\Task Tracker (Console)\Task Tracker\obj\Debug\net6.0\Task Tracker.genruntimeconfig.cache

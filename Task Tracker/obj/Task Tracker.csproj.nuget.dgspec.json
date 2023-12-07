@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\KJohn\\Desktop\\Coding concepts\\Task Tracker (Console)\\Task Tracker\\Task Tracker.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\KJohn\\Desktop\\Coding concepts\\Task Tracker (Console)\\Task Tracker\\Task Tracker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\KJohn\\Desktop\\Coding concepts\\Task Tracker (Console)\\Task Tracker\\Task Tracker.csproj",
+        "projectName": "Task Tracker",
+        "projectPath": "C:\\Users\\KJohn\\Desktop\\Coding concepts\\Task Tracker (Console)\\Task Tracker\\Task Tracker.csproj",
+        "packagesPath": "C:\\Users\\KJohn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KJohn\\Desktop\\Coding concepts\\Task Tracker (Console)\\Task Tracker\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\KJohn\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
