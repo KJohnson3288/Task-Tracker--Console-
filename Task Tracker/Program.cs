@@ -24,9 +24,10 @@ while (doAgain)
          break;
       case "3":
          Console.WriteLine("\nRemoving Task");
+         RemoveTask();
          break;
       case "4":
-         Console.WriteLine("\nSee Yah");
+         Console.WriteLine("\nSee Yahhhh!!!");
          doAgain = false;
          break;
       default:
@@ -81,7 +82,7 @@ void AddTask()
 // View Task Method
 void ViewTask()
 {
-   foreach(string task in taskList)
+   foreach (string task in taskList)
    {
       Console.Write(taskList.IndexOf(task) + 1 + ". ");
       Console.WriteLine("" + task);
@@ -91,17 +92,46 @@ void ViewTask()
 }
 
 // Remove Task Method
-// void RemoveTask()
-// {
-//    ViewTask();
+void RemoveTask()
+{
+   ViewTask();
 
-//    Console.WriteLine("Enter the number of the task youu wish to remove");
-//    string deleteTask = Console.ReadLine();
+   Console.WriteLine("Enter the number of the task you wish to remove:");
 
-//    int taskNumber = Convert.ToInt32(deleteTask) - 1;
+   if (int.TryParse(Console.ReadLine(), out int deleteTask))
+   {
+      // if successfully converted to int store into variable
+      int taskNumber = deleteTask - 1;
 
-//    if (taskNumber = taskList[taskNumber])
-//    {
-//       taskList.Remove(taskNumber);
-//    }
-// }
+      Console.WriteLine($"Are you sure you want to remove task ({deleteTask}) from the list?");
+      string choice = Console.ReadLine().ToLower();
+      if (choice == "y" || choice == "yes")
+      {
+         if (taskNumber >= 0 && taskNumber < taskList.Count)
+         {
+            // Check if the index is within the valid range
+            string removedTask = taskList[taskNumber];
+            taskList.Remove(removedTask);
+
+            Console.WriteLine($"Task at position {deleteTask} removed successfully.\n");
+         }
+         else
+         {
+            Console.WriteLine("Invalid task number. Please enter a valid task number.\n");
+         }
+
+      }
+      else
+      {  
+         // Back to the main menu without removing task
+         Console.WriteLine("\nDid not delete task.\n");
+      }
+
+
+   }
+   else
+   {
+      // Conversion failed
+      Console.WriteLine("Invalid input. Please enter a valid task number.");
+   }
+}
